@@ -1,0 +1,123 @@
+/* paramètres generaux */
+@font-face {
+    font-family: "font-reg";
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "font-bold";
+    src: url(../fonts/PlayfairDisplay-ExtraBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::-moz-selection {
+    background: #000101;
+    color: #fefeff;
+}
+
+*::selection {
+    background: #000101;
+    color: #fefeff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "font-reg", serif;
+    background: #000101;
+    color: #fefeff;
+}
+
+h2 {
+    font-size: calc(3rem + 5vw);
+    text-align: center;
+    color: rgb(217, 217, 217);
+    font-family: "font-bold", serif;
+    letter-spacing: 3px;
+}
+.title {
+    font-size: calc(1.5rem + 5vw);
+    letter-spacing: 0;
+}
+span {
+    display: inline-block;
+}
+a, a:visited {
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color: #fefeff;
+    transition: 0.1s linear;
+    font-size: calc(0.8rem + 0.8vw);
+}
+a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background: #fefeff;
+    height: 1px;
+    bottom: -4px;
+    left: 0;
+    transform-origin: left;
+}
+a:hover {
+    transform: scale(1.04);
+    color: rgb(217, 217, 217);
+}
+
+a:hover::after {
+            -webkit-animation: animLink 1.4s infinite ease-in-out;
+                    animation: animLink 1.4s infinite ease-in-out;
+}
+
+@-webkit-keyframes animLink {
+    50% {
+        transform: scaleX(0.2);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes animLink {
+    50% {
+        transform: scaleX(0.2);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.img {
+    height: 395px;
+    width: 100vw;
+    max-width: 395px;
+    margin: 0 auto;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    transition: 1.6s;
+}
+
+.img:hover {
+            -webkit-filter: grayscale(10%);
+                    filter: grayscale(10%);
+}
+
+
+.line {
+    height: 2px;
+    width: 70%;
+    background: #fefeff;
+    margin: 0 auto;
+    transition: 1s;
+
+}
+
+/* paramètres par ordre d'apparition */
