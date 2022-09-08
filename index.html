@@ -1,164 +1,171 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="is-smooth-scroll-compatible is-loaded is-ready has-scroll-init has-scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Emeric Gautier</title>
+    <link rel="stylesheet" href="./assets/lib/locomotive-scroll.min.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="links">
-            <a href="#portfolio">portfolio</a>
-            <a href="mailto:monmail@gmail.com">contact</a>
-        </div>
-        <div class="wrapper">
-            <div class="appear" id="h1-wrapper">
-                <h1>Emeric Gautier</h1>
+    <div data-scroll-container>
+        <header data-scroll>
+            <div class="links">
+                <a href="#portfolio" data-scroll-to>portfolio</a>
+                <a href="mailto:monmail@gmail.com">contact</a>
             </div>
-        </div>
-        <div class="wrapper">
-            <div class="appear" id="h2-1">
-                <h2>Développeur</h2>
-            </div>
-        </div>
-        <div class="wrapper">
-            <div class="appear" id="h2-2">
-                <h2>Front-end</h2>
-            </div>
-        </div>
-        <div class="scroll-wrapper">
-            <p>please scroll</p>
-        </div>
-    </header>
-
-    <section class="about">
-        <div class="img1-wrapper">
-            <div class="img img1"></div>
-        </div>
-        <div class="h2-wrapper">
-            <h2>À propos</h2>
-        </div>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem in aliquid quos numquam beatae
-            dolor cumque obcaecati incidunt pariatur voluptatem, dicta architecto eveniet. Non eius tempora corporis
-            deserunt autem nobis molestiae aperiam, praesentium consequatur totam quibusdam pariatur dolorum ipsum,
-            eligendi consectetur incidunt omnis repellat accusamus doloremque ab laboriosam ipsa</p>
-    </section>
-
-    <div class="line-wrapper">
-        <div class="line"></div>
-    </div>
-
-    <section class="skills">
-        <h2 class="title">
-            <span>E</span>
-            <span>x</span>
-            <span>p</span>
-            <span>e</span>
-            <span>r</span>
-            <span>t</span>
-            <span>i</span>
-            <span>s</span>
-            <span>e</span>
-        </h2>
-
-        <div class="wrapper">
-            <div class="appear">
-                <p>JavaScript</p>
-            </div>
-        </div>
-        <div class="wrapper">
-            <div class="appear">
-                <p>React</p>
-            </div>
-        </div>
-        <div class="wrapper">
-            <div class="appear">
-                <p>CSS/SASS</p>
-            </div>
-        </div>
-        <div class="wrapper">
-            <div class="appear">
-                <p>SEO</p>
-            </div>
-        </div>
-    </section>
-
-    <div class="line-wrapper">
-        <div class="line"></div>
-    </div>
-
-    <section class="portfolio" id="portfolio">
-        <h2 class="title">
-            <span>P</span>
-            <span>o</span>
-            <span>r</span>
-            <span>t</span>
-            <span>f</span>
-            <span>o</span>
-            <span>l</span>
-            <span>i</span>
-            <span>o</span>
-        </h2>
-
-        <div class="project-container">
-            <div class="project" id="p1">
-                <img src="./assets/img/projet-1.jpg" alt="projet 1">
-                <div class="project-infos">
-                    <a href="www.google.com" target="_blank">Lyon Beton</a>
-                    <p>2020</p>
+            <div class="wrapper">
+                <div data-scroll class="appear" id="h1-wrapper">
+                    <h1 data-scroll>Emeric Gautier</h1>
                 </div>
             </div>
-
-            <div class="project" id="p2">
-                <img src="./assets/img/projet-2.jpg" alt="projet 2">
-                <div class="project-infos">
-                    <a href="www.google.com" target="_blank">Casta</a>
-                    <p>2021</p>
+            <div data-scroll data-scroll-repeat="true" class="wrapper" id="color">
+                <div data-scroll class="appear" id="h2-1">
+                    <h2>Développeur</h2>
                 </div>
             </div>
-
-            <div class="project" id="p3">
-                <img src="./assets/img/projet-3.jpg" alt="projet 3">
-                <div class="project-infos">
-                    <a href="www.google.com" target="_blank">Everpost</a>
-                    <p>2022</p>
+            <div class="wrapper">
+                <div data-scroll class="appear" id="h2-2">
+                    <h2>Front-end</h2>
                 </div>
             </div>
+            <div class="scroll-wrapper">
+                <p>please scroll</p>
+            </div>
+        </header>
+
+        <section class="about">
+            <div class="img1-wrapper">
+                <div class="img img1"></div>
+            </div>
+            <div class="h2-wrapper">
+                <h2>À propos</h2>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem in aliquid quos numquam
+                beatae
+                dolor cumque obcaecati incidunt pariatur voluptatem, dicta architecto eveniet. Non eius tempora corporis
+                deserunt autem nobis molestiae aperiam, praesentium consequatur totam quibusdam pariatur dolorum ipsum,
+                eligendi consectetur incidunt omnis repellat accusamus doloremque ab laboriosam ipsa</p>
+        </section>
+
+        <div class="line-wrapper">
+            <div class="line"></div>
         </div>
-    </section>
 
-    <div class="line-wrapper">
-        <div class="line"></div>
+        <section class="skills">
+            <h2 class="title">
+                <span>E</span>
+                <span>x</span>
+                <span>p</span>
+                <span>e</span>
+                <span>r</span>
+                <span>t</span>
+                <span>i</span>
+                <span>s</span>
+                <span>e</span>
+            </h2>
+
+            <div class="wrapper">
+                <div data-scroll class="appear">
+                    <p>JavaScript</p>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div data-scroll class="appear">
+                    <p>React</p>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div data-scroll class="appear">
+                    <p>CSS/SASS</p>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div data-scroll class="appear">
+                    <p>SEO</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="line-wrapper">
+            <div class="line"></div>
+        </div>
+
+        <section class="portfolio" id="portfolio">
+            <h2 class="title">
+                <span>P</span>
+                <span>o</span>
+                <span>r</span>
+                <span>t</span>
+                <span>f</span>
+                <span>o</span>
+                <span>l</span>
+                <span>i</span>
+                <span>o</span>
+            </h2>
+
+            <div class="project-container">
+                <div class="project" id="p1">
+                    <img src="./assets/img/projet-1.jpg" alt="projet 1">
+                    <div class="project-infos">
+                        <a href="www.google.com" target="_blank">Lyon Beton</a>
+                        <p>2020</p>
+                    </div>
+                </div>
+
+                <div class="project" id="p2">
+                    <img src="./assets/img/projet-2.jpg" alt="projet 2">
+                    <div class="project-infos">
+                        <a href="www.google.com" target="_blank">Casta</a>
+                        <p>2021</p>
+                    </div>
+                </div>
+
+                <div class="project" id="p3">
+                    <img src="./assets/img/projet-3.jpg" alt="projet 3">
+                    <div class="project-infos">
+                        <a href="www.google.com" target="_blank">Everpost</a>
+                        <p>2022</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="line-wrapper">
+            <div class="line"></div>
+        </div>
+
+        <footer>
+            <div class="wrapper">
+                <div data-scroll class="appear">
+                    <p>Vous avez un projet ?</p>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div data-scroll id="l2" class="appear">
+                    <p>
+                        Je serai ravi d'en
+                        <a href="mailto:monemail@gmail.com">discuter</a>
+                    </p>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div data-scroll id="l3" class="appear">
+                    <p>avec vous.</p>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <div class="img img2"></div>
+            </div>
+        </footer>
+
     </div>
-
-    <footer>
-        <div class="wrapper">
-            <div class="appear">
-                <p>Vous avez un projet ?</p>
-            </div>
-        </div>
-        <div class="wrapper">
-            <div id="l2" class="appear">
-                <p>
-                    Je serai ravi d'en
-                    <a href="mailto:monemail@gmail.com">discuter</a>
-                </p>
-            </div>
-        </div>
-        <div class="wrapper">
-            <div id="l3" class="appear">
-                <p>avec vous.</p>
-            </div>
-        </div>
-        <div class="img-wrapper">
-            <div class="img img2"></div>
-        </div>
-    </footer>
+    <script src="./assets/lib/locomotive-scroll.min.js"></script>
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
