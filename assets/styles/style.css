@@ -254,6 +254,20 @@ header h2 {
     margin: 50px 5vw;
 }
 
+.project::before {
+    content: "";
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    top: -3px;
+    background: #fefeff;
+    transition: width 1s ease-out;
+    transition-delay: 0.85s;
+}
+.project.is-inview::before {
+    width: 0;
+}
+
 #p2 {
     margin: 0 6vw 0 auto;
 }
@@ -306,7 +320,12 @@ footer p {
     margin: 25px 0;
     text-align: center;
 }
-
+#l2 {
+    transition-delay: 1.2s;
+}
+#l3 {
+    transition-delay: 1.6s;
+}
 footer a {
     font-family: "font-bold", serif;
     font-size: calc(1rem + 2vw);
