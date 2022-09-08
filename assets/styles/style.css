@@ -195,7 +195,7 @@ header h2 {
 }
 
 .img1 {
-    background: url(../img/bill-gates-1.jpg) top/cover;
+    background: url(../img/about.jpeg) top/cover;
 }
 
 .h2-wrapper {
@@ -333,5 +333,5 @@ footer a {
 }
 
 .img2 {
-    background: url(../img/bill-gates-2.jpg) center/cover;
+    background: url(../img/contact.jpg) center/cover;
 }
